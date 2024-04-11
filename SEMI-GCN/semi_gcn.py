@@ -1,6 +1,6 @@
 """
 Semi-supervised Anomaly Detection on Attributed Graphs implementation for CSDS 491
-Author: Rohan Singh
+Author: Rachel Tjarksen
 """
 
 
@@ -255,7 +255,7 @@ def train(features, adj, index_anomaly_train, index_normal_train, index_anomaly_
 # main function to run the code
 def main():
 
-    filepath = "/Users/rohansingh/github_repos/Artificial_Intelligence/Graph ML/GCN-based-GAE/NOR-AUC/cora/"
+    filepath = "cora/"
     features, adj, index_anomaly_train, index_normal_train, index_anomaly_val, index_normal_val, index_anomaly_test, index_normal_test, cat_labels = load_data(filepath=filepath)
 
     train(features= features,adj=adj, index_anomaly_train= index_anomaly_train, index_normal_train= index_normal_train, 
