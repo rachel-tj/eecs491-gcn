@@ -1,7 +1,7 @@
 """
 Python Source code for "Deep Anomaly Detection on Attributed Networks" (Dominant)
 Paper Source: https://www.public.asu.edu/~kding9/pdf/SDM2019_Deep.pdf
-Author: Rohan Singh
+Author: Rachel Tjarksen
 This is the main model code for the paper
 """
 
